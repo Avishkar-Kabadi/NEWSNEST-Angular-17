@@ -5,11 +5,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { TopheadlinesComponent } from './topheadlines/topheadlines.component';
 import { BwService } from './Services/bw.service';
+import { InComponent } from './in/in.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    TopheadlinesComponent
+    TopheadlinesComponent,
+    InComponent
   ],
   imports: [
     BrowserModule,
