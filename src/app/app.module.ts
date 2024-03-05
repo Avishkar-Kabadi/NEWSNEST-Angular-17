@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { TopheadlinesComponent } from './topheadlines/topheadlines.component';
 import { BwService } from './Services/bw.service';
 import { InComponent } from './in/in.component';
+import { BusinessComponent } from './business/business.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TopheadlinesComponent,
-    InComponent
+    InComponent,
+    BusinessComponent
   ],
   imports: [
     BrowserModule,
